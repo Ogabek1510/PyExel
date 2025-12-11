@@ -6,6 +6,7 @@ from config import TOKEN
 import shutil
 import os
 
+TOKEN = os.environ.get("TOKEN")
 bot = telebot.TeleBot(TOKEN)
 
 products_data = {
