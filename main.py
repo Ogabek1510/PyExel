@@ -2,7 +2,6 @@ import telebot
 import random
 from telebot import types
 from openpyxl import load_workbook
-from config import TOKEN
 import shutil
 import os
 
